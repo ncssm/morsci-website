@@ -1,0 +1,9 @@
+version: 1
+project:
+  id: 49ec2db7-fe1c-47f9-994e-04e0e338958c
+  title: The Morganton Scientific
+site:
+  template: book-theme
+  title: The Morganton Scientific
+  domains:
+    - ncssm-morganton.curve.space
