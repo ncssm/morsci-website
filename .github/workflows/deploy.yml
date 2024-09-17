@@ -1,0 +1,16 @@
+name: Deploy Curvenote Site
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy 🚀
+        uses: curvenote/action-myst-publish
+        env:
+          CURVENOTE_TOKEN: ${{ secrets.CURVENOTE_TOKEN }}
