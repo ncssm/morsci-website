@@ -44,6 +44,6 @@ These guidelines were adopted from the Siemens Competition requirements (2012) a
 
 ## Online Submission Process
 
-The submission process is completed in GitHub and supported by [Curvenote](https://curvenote.com). You can read more about the submission process here:
+The submission process is completed via Google sites and review is conducted by *Morganton Scientific* editing team. You can read more about the submission process here:
 
-- https://github.com/ncssm/morgantonscientific2024
+- [https://sites.google.com/ncssm.edu/themorgantonscientific/](https://sites.google.com/ncssm.edu/themorgantonscientific/home)
