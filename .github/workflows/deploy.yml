@@ -1,16 +1,14 @@
-name: Deploy Curvenote Site
+name: Update Landing Page
 on:
   push:
     branches:
       - main
 permissions:
   contents: read
-  pull-requests: write
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy 🚀
-        uses: curvenote/action-myst-publish@v1
-        env:
-          CURVENOTE_TOKEN: ${{ secrets.CURVENOTE_TOKEN }}
+    uses: curvenote/actions/.github/workflows/push.yml@v1
+    with:
+      landing-content: ncssm-mor
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}

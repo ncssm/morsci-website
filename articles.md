@@ -3,6 +3,19 @@ title: Articles
 description: All student articles
 ---
 
+## 2026
+
+```{cn:articles}
+:venue: ncssm-mor
+:collection: 2026
+:show-thumbnails:
+:show-date:
+:show-authors:
+:layout: cards
+```
+
+---
+
 ## 2025
 
 ```{cn:articles}

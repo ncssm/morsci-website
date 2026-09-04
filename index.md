@@ -23,7 +23,7 @@ The Morganton Scientific showcases some of the most interesting and complex math
 
 ```{cn:articles}
 :venue: ncssm-mor
-:collection: 2025
+:collection: 2026
 :limit: 3
 :show-thumbnails:
 :show-date:
