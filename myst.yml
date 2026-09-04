@@ -2,6 +2,15 @@ version: 1
 project:
   id: 49ec2db7-fe1c-47f9-994e-04e0e338958c
   title: The Morganton Scientific
+  toc:
+    - file: index.md
+    - file: submission-instructions.md
+    - file: articles.md
+      children:
+        - file: 2026.md
+        - file: 2025.md
+        - file: 2024.md
+    - file: volumes.md
 site:
   template: book-theme
   title: The Morganton Scientific
